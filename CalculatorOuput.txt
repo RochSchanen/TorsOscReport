@@ -1,0 +1,53 @@
+
+----- Section 1
+
+eps0 =    8.854 pF/m  vacuum permitivity            
+k    =    2.618 N.m   torsion contant               
+L    =   10.000 mm    Length                        
+H    =   10.000 mm    Height                        
+l    =   15.000 mm    centre of the electrodes      
+d    =  256.000 µm    gap                           
+VS   =  600.000 V     static potential              
+VD   =  600.000 V     static detection potential    
+V    =    7.000 V     harmonic potential            
+Q    =  980.000       quality factor                
+f    =  141.800 Hz    resonance frequency           
+G    =    1.000 V/µA  amplifier gain                
+
+-----
+
+C    =    3.459 pF     (1)                          
+FS   =    2.432 mN     (3)                          
+TS   =   36.477 µN.m   (4)                          
+AS   =  798.319 µDeg   (5)                          
+xS   =  208.999 nm     (8)                          
+F    =   56.743 µN    (11)                          
+x0   =    4.877 nm    (12)                          
+x    =    4.779 µm    (22)                          
+v    =    4.258 mm/s  (22)                          
+i    =    8.106 nA    (27) for v = 1mm/s            
+u    =    8.106 mV    (28) for v = 1mm/s            
+
+----- Section 2
+
+R    =   20.000 mm    outer radius                  
+r    =    7.500 mm    inner radius                  
+e    =    6.000 Deg   overlap angle                 
+N    =   12.000       number of radial electrodes   
+L    =   12.500 mm    Length                        
+l    =   13.750 mm    centre of the electrodes      
+
+-----
+
+C    =    7.470 pF    (30)                          
+TS   =   12.840 µN.m  (32)                          
+AS   =  281.008 µDeg  (33)                          
+xS   =   67.437 nm                                  
+T0   =    0.300 µN.m  (34)                          
+A0   =    6.557 µDeg  (35)                          
+x0   =    1.574 nm                                  
+A    =    6.426 mDeg  (36)                          
+x    =    1.542 µm                                  
+v    =    1.374 mm/s  (37)                          
+i    =    3.113 nA    (38) for v = 1mm/s            
+u    =    3.113 mV         for v = 1mm/s            
