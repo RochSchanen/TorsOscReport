@@ -8,24 +8,31 @@
 \subsection{Geometry}
 \label{sec.standard}
 A common design used for torsional oscillators is shown in Figure~\ref{fig.StandardDesign}.
-The oscillator is composed of a cylindrical body and a support rod. The cylindrical body contributes mainly to the total moment of inertia~$I$ and usually contains the sample under study. The support rod has a spring constant~$k$, and with the moment of inertia, determines the natural frequency on the oscillations. In order to drive and to measure the motion of the oscillator at resonance, two independent capacitors are used. Each capacitor is composed of one moving electrode attached to the main body and one fixed electrode.
+The oscillator is composed of a main body and a support rod. The main body contributes mostly to the total moment of inertia of the oscillator and usually contains the sample to study. The support rod acts as a spring and together with the moment of inertia, determines the natural resonance frequency of the oscillator.
 \begin{figure}[htb]
 	\captionsetup{width=.8\linewidth}
 	\centering
-	\includegraphics[width=12cm]{StandardDesign}
-	\caption{ \small Common design for a torsional oscillator.
-		(a) Top view showing the main body of the oscillator, the moving electrodes in dark grey and the fixed electrodes in light grey. (b) Detail of the top view showing the gap~$d$ between the plates of one capacitor. (c) Side view of the oscillator showing the main body of the oscillator, the torsion rod, the positions~$l$ and sizes~$L$,~$H$ of the fixed plates.}
+	\includegraphics[width=7cm]{StdDesign1}
+	\caption{ \small Common design of a torsional oscillator:
+		The main body of the oscillator with the moving electrodes are shown in blue, the fixed electrodes in red, and the rod in green. A potential~$V_1$ is applied across capacitor~$C_1$ and a distinct potential~$V_2$ across~$C_2$.}
 	\label{fig.StandardDesign}
 \end{figure}
-The main body of the oscillator and the two moving electrodes are all grounded, while arbitrary potentials~$V_1$ and~$V_2$ can be applied independently to the fixed electrodes.
+The oscillator is driven at resonance by a capacitor, and another one is used to measure its motion. Each of the capacitors is composed of two electrodes, one moving with the main body of the oscillator and the other one fixed in space. The main body of the oscillator is electrically connected to the moving electrodes and is grounded while any arbitrary potential can be applied to either of the fixed electrodes.
 
 \subsection{Capacitance}
-The geometry for both capacitors is square and almost identical. Their value is given by the standard expression
+The geometry for of both capacitors is rectangular (see Figure~\ref{fig.StandardDesign2}).
+\begin{figure}[htb]
+	\captionsetup{width=.8\linewidth}
+	\centering
+	\includegraphics[width=9cm]{StdDesign2}
+	\caption{ \small Cross section of the a capacitor: The }
+	\label{fig.StandardDesign2}
+\end{figure}
+Both capacitor are almost identical except for the gap between the electrodes which can slightly differ due to construction. The capacitance value is given by the standard expression
 \begin{equation}
 C = \epsilon_0\frac{L H}{d}\,,
 \end{equation}
-where~$\epsilon_0$ is the vacuum permittivity ($\epsilon_0 = \epsilonzero $), $LH$~is the overlapping area of the electrodes and~$d$ the spacing between them.
-$L$~and~$H$ are the length and the height of the plates and $l$~is the distance from the centre of the electrodes to the axis of rotation. This expression will remain a good approximation as long as the distance between the capacitor plates stays small compared to the other dimensions ($d\ll L$ and $d\ll H$)\footnote{Include a note on the practical construction of a capacitor which include a ground shield.}. 
+where~$\epsilon_0$ is the vacuum permittivity ($\epsilon_0 = \epsilonzero $), $L$~and~$H$ are respectively the length and the height of the fixed plates, and~$d$ the distance (gap) between them. The value of $LH$ represents the overlapping surface area between the electrodes. This expression remains a good approximation as long as the distance between the capacitor plates stays small compared to the other dimensions: ($d\ll L$ and $d\ll H$).
 
 \subsection{Energy}
 When a static potential~$V$ is applied to one of the fixed capacitor plates, the electrostatic energy stored in the capacitor is:
@@ -45,6 +52,7 @@ In other words, the force is always attractive and does not depend on the sign o
 
 \subsection{Displacement}
 \label{sec.displacement}
+% and $l$~is the distance from the centre of the electrodes to the axis of rotation.
 When the fixed potential~$V$ is applied to the fixed electrode, the electric force~$F$ exerts a torque
 \begin{equation}
 \tau_1 = F l
